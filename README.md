@@ -1,25 +1,27 @@
-# Temporary Fork
-This is a temporary fork to bring in a fix to start date selection which has yet to be merged into the source repo. Once the source repo is updated, this repo will be deprecated.
+# vue2-daterange-picker
 
-# daterange-picker-vue3
-
-> Vue date range picker base on https://innologica.github.io/vue2-daterange-picker (no jQuery)
+> Vue2 date range picker base on https://github.com/dangrossman/bootstrap-daterangepicker (no jQuery)
 
 ## Demo and Usage
-
-You can see a demo and read the documentation from the original package here:
+You can see a demo and read the documentation here:
 https://innologica.github.io/vue2-daterange-picker/
 
 ## Installation
 
-```bash
+``` bash
 # install via npm
-npm i daterange-picker-vue3 --save
+npm i vue2-daterange-picker --save
 ```
 
 ## TODO
 
--   [] documentation
--   [] tests
--   [x] disabled dates
--   [ ] export single components
+- [x] documentation
+- [x] tests
+- [x] disabled dates
+- [x] export single components
+
+
+### Run local demo
+```
+npm run docs:dev
+```
